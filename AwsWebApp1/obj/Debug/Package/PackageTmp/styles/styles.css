@@ -1,0 +1,306 @@
+﻿.pull-right {
+  float: right;
+}
+/*Don't break it, G!'*/
+.pull-right-bottom {
+    float: right;
+    bottom: 0;
+}
+.rotator {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    transform-origin: left top -5;
+    float: left;
+    line-height: 130px;
+    vertical-align: middle;
+    margin-left: -10px;
+    width: 15px;
+}
+.pull-left-age {
+    float: left;
+    margin-left: 15px;
+}
+/*end*/
+.btn {
+  background-color: #26d926 !important;
+}
+.btn.active {
+  background-color: #df20df !important;
+}
+.btn_round.disactive {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    border: 1px solid #000;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+  background-color: #26d926 !important;
+}
+.btn_round.active {
+height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    border: 1px solid #000;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+  background-color: #df20df !important;
+}
+
+.left-section {
+  float: left;
+  width: 35%;
+  margin: 0 1% 0;
+  padding-right: 30px;
+  border-right: 7px solid #aaa;
+}
+.left-section img {
+  width: 100%;
+}
+.right-section {
+  float: left;
+  width: 45%;
+  padding: 0 2%; 
+}
+.right-corner {
+  float: right;
+  width: 13%;
+  margin-right: 3%;
+/*   margin-top: 70px; */
+}
+.right-corner .description {
+  line-height: 17px;
+}
+.right-corner .shipping-nofify {
+  position: absolute;
+  bottom: 38px;
+  font-size: 11px;
+  right: 48px;
+}  
+.right-corner .prie-pad > div {
+  margin-top: 20px;
+}
+.right-corner .quantity > input {
+  display: inline;
+  max-width: 20%;
+}
+.right-corner .quantity > button {
+  display: inline;
+  width: 80%; 
+  width: 74%;
+  padding: 7px;
+}
+
+@media(max-width: 700px) {
+  .left-section, .right-section {
+    width: 100%;
+  }
+}
+
+.clearfix {
+   clear:both; 
+}
+
+#upload_pane {
+  border: 7px dashed #777;
+  margin: 3px;
+}
+
+#upload_pane:hover {
+  background-color: #eee; 
+}
+
+#upload_pane > input {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  opacity: 0;
+}
+
+#upload_pane .dragdrop {
+  position: absolute;
+  top: 46%;
+  left: 11%;
+  text-align: center;
+  z-index: 0;
+}
+
+#option_pane {
+  padding: 0 2px 5px;
+  background-color: #ccc;
+  display: inline-block;
+}
+
+#option_pane img {
+  width: 70px;
+}
+
+#option_pane label {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#option_pane span {
+  font-size: 12px;
+}
+
+#option_pane input {
+  visibility: hidden;
+}
+
+#setting_pane .img-item {
+  display: inline;
+}
+
+#setting_pane .img-item.active>img {
+  border: 3px solid #f00;
+}
+
+#upload_pane {
+  width: 100%;
+  height: 350px;
+}
+
+#setting_pane #options-menu > li {
+  display: inline;
+}
+
+#setting_pane #options-menu {
+  margin-top: 0;
+}
+
+#setting_pane .tab {
+  display: none;
+}
+
+#setting_pane .tab.active {
+  display: block;
+}
+
+#setting_pane .tab img {
+  width: 70px; 
+  margin-top: 2px;
+}
+
+#option-board {
+  height: 500px;
+}
+
+#option-board h4 {
+  margin: 10px;
+}
+
+#option-board .img-list {
+  overflow-y: scroll; 
+  height: 90px; 
+}
+
+#model-preview {
+  height: 370px;
+  margin-top: 30px;
+}
+
+#size-option {
+  text-align: center; 
+}
+
+#size-option > div {
+  display: inline-block;
+  margin: 20px 8px;
+}
+
+#option-age label {
+  width: 20%; 
+  display: inline-block; 
+}
+
+#loading {
+  position: absolute;
+  top: 3%;
+  right: 18%;
+  width: inherit;
+  height: 90%;
+  background-color: #777;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+#loading img {
+  position: relative;
+  left: 17%;
+  top: 10%;  
+}
+
+#complete {
+  color: #fff;
+  opacity: 1;
+  position: absolute;
+  left: 39%;
+  bottom: 25%;
+  font-weight: 800;
+  font-size: 15px; 
+}
+
+#model-control {
+  position: absolute;
+  top: 20%;
+  right: 21%;  
+}
+
+#model-control .button {
+  padding: 20px;
+  margin: 3px;
+  border-radius: 50%;
+  background-size: cover;
+  opacity: 0.5;
+  width: 0;
+  height: 0;
+}
+
+#model-control .button.active {
+  opacity: 0.7;
+}
+
+#model-control .hand {
+  background-image: url('http://printahead.net/wp-content/uploads/2017/05/btnHandNormal.png')
+}
+#model-control .hand.active {
+  background-image: url('http://printahead.net/wp-content/uploads/2017/05/btnHandPressed.png')
+}
+
+#model-control .zoomin {
+  background-image: url('http://printahead.net/wp-content/uploads/2017/05/btnZoomNormal.png')
+}
+
+#model-control .zoomin.active {
+  background-image: url("http://printahead.net/wp-content/uploads/2017/05/btnZoomPressed.png")
+}
+
+#model-control .zoomout {
+  background-image: url('http://printahead.net/wp-content/uploads/2017/05/btnZoomNormal-1-1.png')
+}
+
+
+#model-control .zoomout.active {
+  background-image: url('http://printahead.net/wp-content/uploads/2017/05/btnZoomPressed-.png')
+}
+
+#model-control .rotate {
+  background-image: url('http://printahead.net/wp-content/uploads/2017/05/btnArrowNormal.png')
+}
+
+#model-control .rotate.active {
+  background-image: url("http://printahead.net/wp-content/uploads/2017/05/btnArrowPressed.png")
+}
+
+#model-control .unscale {
+  background-image: url('http://printahead.net/wp-content/uploads/2017/05/btnUnscaleNormal.png')
+}
+
+#model-control .unscale.active {
+  background-image: url('http://printahead.net/wp-content/uploads/2017/05/btnUnscalePressed.png')
+}
