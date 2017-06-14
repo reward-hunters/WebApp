@@ -3,7 +3,7 @@
 
     // 2017-05-31 - this file is optimized by Zilvinas. Changes made at clearScene function
     // 2017-06-01 - quality improvements
-
+    //
     //======================     
 
     function placeNewImage(file) {
@@ -322,6 +322,8 @@
     jQuery("#btnRemoveAccessory").click(function () {
         if ($(".base .img-item").hasClass("active")) {
             $(".base .img-item").removeClass("active");
+            $(".accessory-color .img-item").removeClass("active");
+
             accessory_addon_price -= 4;
             if (accessory_addon_price === 0)
                 $(".price-accessory-addon").hide();
@@ -332,23 +334,19 @@
 
             calculate_price();
         }
-        else if ($(lastAddon).hasClass("active")) {
-            $(lastAddon).removeClass("active");
+        else if ($(".accessory-add-on .img-item").hasClass("active")) {
+            $(".accessory-add-on .img-item").removeClass("active");
+            $(".accessory-color .img-item").removeClass("active");
+
             --addonsCount;
             accessory_addon_price -= 4;
             if (accessory_addon_price === 0)
                 $(".price-accessory-addon").hide();
 
-            if (lastAddon.innerHTML === document.getElementById("addonPath1").value)
-                document.getElementById("addonPath1").value = "";
-            if (lastAddon.innerHTML === document.getElementById("addonPath2").value)
-                document.getElementById("addonPath2").value = "";
-            if (lastAddon.innerHTML === document.getElementById("addonPath3").value)
-                document.getElementById("addonPath3").value = "";
-            if (lastAddon.innerHTML === document.getElementById("addonPath4").value)
-                document.getElementById("addonPath4").value = "";
-
             document.getElementById("workType").value = 0;
+            document.getElementById("addonPath1").value = "";
+            document.getElementById("addonMaterialPath").value = "";
+
             calculate_price();
         }
 
@@ -597,8 +595,10 @@
             for (i = 0; i < keyorder.length; i++) {
                 a = keyorder[i];
                 t = a;
+                if (t === "Materials")
+                    continue;
                 node = node + div_head.replace("SECTION_HEADING", t);
-                if (t === "Materials") {
+                if (t === "Icons") {
                     t = "Color";
                     node = node.replace("GROUP", "hair-color");
                 }
@@ -606,7 +606,12 @@
                     node = node.replace("GROUP", "hair");
                     t = t + " Hair";
                 }
-                node = node.replace("DGROUP", t);
+
+                if (t === "Icons")
+                    node = node.replace("DGROUP", "Materials");
+                else
+                    node = node.replace("DGROUP", t);
+
                 t = 0;
                 for (b in data.Hair[a]) {
                     node = node + div_content.replace("IMGSRC", data.Hair[a][b]);
@@ -623,16 +628,23 @@
             for (i = 0; i < keyorder.length; i++) {
                 a = keyorder[i];
                 t = a;
+                if (t === "Materials")
+                    continue;
                 node = node + div_head.replace("SECTION_HEADING", t);
-                if (t == "Materials")
+                if (t === "Icons")
                     node = node.replace("GROUP", "accessory-color");
-                else if (t == "Add-on")
+                else if (t === "Add-on")
                     node = node.replace("GROUP", "accessory-add-on");
-                else if (t == "Base")
+                else if (t === "Base")
                     node = node.replace("GROUP", "base");
-                else
+                else 
                     node = node.replace("GROUP", "accessory");
-                node = node.replace("DGROUP", t);
+
+                if (t==="Icons")
+                    node = node.replace("DGROUP", "Materials");
+                else
+                    node = node.replace("DGROUP", t);
+
                 t = 0;
                 for (b in data.Accessory[a]) {
                     node = node + div_content.replace("IMGSRC", data.Accessory[a][b]);
@@ -713,11 +725,14 @@
             if ($(this).hasClass("active"))
                 return;
 
+            if (document.getElementById("basePath").value === "")
+               accessory_addon_price += 4;
+
             $(".base .img-item").removeClass("active");
             $(this).addClass("active");
 
             console.log("Attach base");
-            accessory_addon_price += 4;
+ 
 
             $(".price-accessory-addon").show();
             document.getElementById("workType").value = 1;
@@ -747,7 +762,6 @@
                 document.getElementById("addonMaterialPath").value = this.innerHTML;
         });
         $(".accessory-add-on .img-item").click(function () {
-
             $('#btnRemoveAccessory').removeClass("active");
             $("#btnRemoveAccessory").prop('disabled', false);
             lastAddon = this;
@@ -755,28 +769,21 @@
                 return;
             }
 
+            if (document.getElementById("addonPath1").value === "")
+                accessory_addon_price += 4;
+
+            $(".accessory-add-on .img-item").removeClass("active");
             console.log("Attach addon");
             $(this).addClass("active");
             ++addonsCount;
-            accessory_addon_price += 4;
 
-            if (addonsCount == 1) {
                 $(".price-accessory-addon").show();
                 document.getElementById("workType").value = 2;
-
                 $(".accessory .img-item").removeClass("active");
                 $(".base .img-item").removeClass("active");
                 $(".accessory-color .img-item").removeClass("active");
-            }
-
-            if (document.getElementById("addonPath1").value === "")
+       
                 document.getElementById("addonPath1").value = this.innerHTML;
-            else if (document.getElementById("addonPath2").value === "")
-                document.getElementById("addonPath2").value = this.innerHTML;
-            else if (document.getElementById("addonPath3").value === "")
-                document.getElementById("addonPath3").value = this.innerHTML;
-            else if (document.getElementById("addonPath4").value === "")
-                document.getElementById("addonPath4").value = this.innerHTML;
 
             calculate_price();
 
