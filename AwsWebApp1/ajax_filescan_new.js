@@ -621,6 +621,7 @@
                 else node = node.replace("CLASS", "0");
                 node = node + div_end;
             }
+            node = node.replace("<h4> Icons</h4>", "<h4> Materials</h4>");
             $("#option-hair").html(node);
 
             node = '';
@@ -654,6 +655,7 @@
                 else node = node.replace("CLASS", "0");
                 node = node + div_end;
             }
+            node = node.replace("<h4> Icons</h4>", "<h4> Materials</h4>");
             $("#option-accessory").html(node);
 
             console.log(node);

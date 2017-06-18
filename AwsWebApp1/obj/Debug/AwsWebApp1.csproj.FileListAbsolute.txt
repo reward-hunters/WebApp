@@ -92,7 +92,6 @@ C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebAp
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\bin\AWSSDK.S3.xml
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\bin\AWSSDK.SimpleDB.xml
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\bin\RH.MeshUtils.pdb
-C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\obj\Debug\AwsWebApp1.csprojResolveAssemblyReference.cache
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\obj\Debug\AwsWebApp1.dll
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\obj\Debug\AwsWebApp1.pdb
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\bin\RH.Core.dll
