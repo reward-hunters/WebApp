@@ -827,7 +827,7 @@
         composerBeckmann.addPass(effectCopy);
         /* end of zilvinas, quality - new renderer */
 
-        var objurl = 'http://printahead.net/printahead.online/PrintAhead_models/' + sessionID + '/';
+        var objurl = 'https://printahead.net/printahead.online/PrintAhead_models/' + sessionID + '/';
 
         renderer.setSize(container.width(), container.height());
         container.html(renderer.domElement);

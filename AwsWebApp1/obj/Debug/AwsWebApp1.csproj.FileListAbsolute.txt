@@ -103,3 +103,4 @@ C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebAp
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\bin\Emgu.Util.dll
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\bin\RH.Core.pdb
 C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\bin\RH.WebCore.pdb
+C:\Users\Kulikov\Documents\Visual Studio 2015\Projects\Laslo\AwsWebApp1\AwsWebApp1\obj\Debug\AwsWebApp1.csprojResolveAssemblyReference.cache
