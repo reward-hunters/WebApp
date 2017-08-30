@@ -248,31 +248,12 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
     </div>
     <div id="setting_pane" style="height:700px">
       <ul id="options-menu">
-  <li> <button data-option="option-age" class="btn active"> Age </button> </li>
   <li> <button data-option="option-hair" class="btn"> Hair </button> </li>
   <li> <button data-option="option-accessory" class="btn"> Accessory </button> </li>
 </ul>
 
 <div id="option-board" >
-  <div class="tab active" id="option-age">
-    <div>
-      <label> Age </label>
-      <input type="range" name="age" min="20" max="80" value ="20" id ="trackAge" />
-    </div>
-    <div>
-      <label> Weight </label>
-      <input type="range" name="weight" min="-30" max="30" value ="0" id ="trackFat" />
-    </div>
-    <div>
-      <label> Smooth </label>
-      <input type="range" name="smooth" min="0" max="100" value ="0" id ="trackSmooth"/>
-    </div>
-    <div>
-        <img id="imgAge" src="http://printahead.net/printahead.online/PrintAhead_images/zncow5q5nczcn1j1lt0mopk3.jpeg" alt="Selected face image" style="width:300px;height:auto;border:1px solid black; margin-left: auto;margin-right: auto;display: block;">
-    </div>
-  </div>
-
-  <div class="tab" id="option-hair">
+  <div class="tab active" id="option-hair">
     <div class="group-option">
       <h4>Standard Hair</h4>
       <div class="img-list clearfix">
@@ -374,6 +355,12 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
     </div>
   </div>
 </div>
+
+              <div align="center">
+      <label> Smooth </label>
+      <input type="range" name="smooth" min="0" max="100" value ="40" id ="trackSmooth" style="width: 100px"/>
+    </div>
+
 	<div id="loading">		
   <img src="http://printahead.net/wp-content/uploads/2017/04/loading7_gray.gif" />		
   <label id="complete"> </label>		

@@ -36,48 +36,7 @@
         }
     }
 
-    /*   $('#upload_pane')[0].ondragover = function () {
-           $('#upload_pane').addClass('hover');
-           return false;
-       };
-   
-       $('#upload_pane')[0].ondragleave = function () {
-           $('#upload_pane').removeClass('hover');
-           return false;
-       };
-       $('#upload_pane')[0].ondrop = function (event) {
-           event.preventDefault();
-           $('#upload_pane').removeClass('hover');
-           $('#upload_pane').addClass('drop');
-   
-           var file = event.dataTransfer.files[0];
-           $('#upload_pane').attr('value', file);
-           $('#upload_pane').attr('input', file);
-           $('#upload_pane').attr('val', file);
-       
-           // отправляем через xhr
-           var xhr = new XMLHttpRequest();
-   
-   
-           var fd = new FormData();
-      
-           fd.append("user_photo", file);
-   
-           xhr.open("POST", "index.php");
-           xhr.setRequestHeader("Content-Type", "multipart/form-data");
-           xhr.send(fd);
-           xhr.onload = function () {
-               console.log("Отправка завершена");
-           };
-   
-           placeNewImage(file);
-   
-           //   document.getElementById("upload_pane").val = file;
-           // document.getElementById("upload_pane").input = file;
-           //  placeNewImage(file);
-       };*/
-
-    var composerBeckmann, firstPass = true; // Zilvinas - quality improvements #1
+  var composerBeckmann, firstPass = true; // Zilvinas - quality improvements #1
 
     var oldScene;
 
