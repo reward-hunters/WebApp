@@ -358,7 +358,7 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
 
               <div align="center">
       <label> Smooth </label>
-      <input type="range" name="smooth" min="0" max="100" value ="40" id ="trackSmooth" style="width: 100px"/>
+      <input type="range" name="smooth" min="0" max="100" value ="0"  id ="trackSmooth" style="width: 150px"/>
     </div>
 
 	<div id="loading">		

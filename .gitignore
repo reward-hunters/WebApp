@@ -1,0 +1,10 @@
+*.cache
+RH.Core/obj/
+RH.FaceShopExecutor/obj/
+RH.OneClick/obj/
+RH.PrintAhead_Paypal/obj/
+RH.MeshUtils/obj/
+.vs/
+*.zip
+*.rar
+*.manifest

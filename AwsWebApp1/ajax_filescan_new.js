@@ -59,7 +59,6 @@
         $("#upload_pane").css("background-position", "center");
 
         imgPath = "http://printahead.net/printahead.online/PrintAhead_images/" + session + ".jpeg#t" + new Date().getTime();
-        document.getElementById("imgAge").src = imgPath;
 
         $("input[name='process']").val("Go");
         $("#process_type").val("build_model");
@@ -136,9 +135,7 @@
         document.getElementById("redirectURL").value = "";
         document.getElementById("size").value = 0;
 
-        document.getElementById("trackAge").value = 20;
-        document.getElementById("trackFat").value = 0;
-        document.getElementById("trackSmooth").value = 0;
+        document.getElementById("trackSmooth").value = 40;
 
         $("#btnRemoveAccessory").prop('disabled', true);
     }
@@ -215,8 +212,6 @@
         var addonPath4 = document.getElementById("addonPath4").value;
         var addonMaterialPath = document.getElementById("addonMaterialPath").value;
 
-        var age = document.getElementById("trackAge").value;
-        var fat = document.getElementById("trackFat").value;
         var smooth = document.getElementById("trackSmooth").value;
 
         var size = -1;
@@ -225,7 +220,7 @@
             size = document.getElementById("size").value;
 
         var productID = document.getElementById("orderID").value;
-        window.PageMethods.LoadModel(type, session, hairPath, hairMaterialPath, accessoriesPath, accessoriesMaterialPath, basePath, baseMaterialPath, addonPath1, addonPath2, addonPath3, addonPath4, addonMaterialPath, age, fat, smooth, size, productID, LoadModelSuccess, LoadModelFailure);
+        window.PageMethods.LoadModel(type, session, hairPath, hairMaterialPath, accessoriesPath, accessoriesMaterialPath, basePath, baseMaterialPath, addonPath1, addonPath2, addonPath3, addonPath4, addonMaterialPath, 20, 0, smooth, size, productID, LoadModelSuccess, LoadModelFailure);
     }
 
 
@@ -242,23 +237,7 @@
     });
 
 
-    // changed this logic to process button. If Laslo don't like it - return back.
-    /*  jQuery("#trackAge").on("change", function () {
-          var mValue = document.getElementById("trackAge").value;
-          console.log("Change age: " + mValue);
-          Abalone_LoadModel();
-      });
-      jQuery("#trackFat").on("change", function () {
-          var mValue = document.getElementById("trackFat").value;
-          console.log("Change fat: " + mValue);
-          Abalone_LoadModel();
-      });
-      jQuery("#trackSmooth").on("change", function () {
-          var mValue = document.getElementById("trackSmooth").value;
-          console.log("Change smooth: " + mValue);
-          Abalone_LoadModel();
-      });
-      */
+   
 
 
     jQuery("#optionsRadios1").click(function () {
