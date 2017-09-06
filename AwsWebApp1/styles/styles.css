@@ -12,12 +12,12 @@
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    transform-origin: left top -5;
+    transform-origin: left top -3;
     float: left;
-    line-height: 130px;
+    line-height: 90px;
     vertical-align: middle;
-    margin-left: -10px;
-    width: 15px;
+    margin-left: -5px;
+    width: 10px;
 }
 .pull-left-age {
     float: left;

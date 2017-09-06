@@ -244,7 +244,15 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
     <div id="test" class="pull-right-bottom">
         <input type="submit" name="process" value="Go" id="btnProcess" class="btn_round disactive">
     </div>
+
+        <div id="divSmooth" align="center" style="display: none; clear: left;">
+      <label> Smooth </label>
+      <input type="range" name="smooth" min="0" max="100" value="0" id="trackSmooth" style="width: 150px">
+    </div> 
+              
 </form>
+        
+
     </div>
     <div id="setting_pane" style="height:700px">
       <ul id="options-menu">
@@ -355,11 +363,6 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
     </div>
   </div>
 </div>
-
-              <div align="center">
-      <label> Smooth </label>
-      <input type="range" name="smooth" min="0" max="100" value ="0"  id ="trackSmooth" style="width: 150px"/>
-    </div>
 
 	<div id="loading">		
   <img src="http://printahead.net/wp-content/uploads/2017/04/loading7_gray.gif" />		

@@ -24,6 +24,7 @@
 
             $("#option_pane").hide();
             $("#lbl_Choose").hide();
+            $("#divSmooth").hide();
 
             $("#upload_pane").hover(function () {
                 $("#upload_pane .dragdrop").toggle();
@@ -111,6 +112,7 @@
 
         $("#option_pane").hide();
         $("#lbl_Choose").hide();
+        $("#divSmooth").hide();
         document.getElementById("btnMale").src = "http://printahead.net/wp-content/uploads/2017/04/btnMaleGray.png";
         document.getElementById("btnFem").src = "http://printahead.net/wp-content/uploads/2017/04/btnFemaleGray.png";
         document.getElementById("btnChild").src = "http://printahead.net/wp-content/uploads/2017/04/btnChildGray.png";
@@ -182,6 +184,8 @@
             $('#btnProcess').removeClass("active");
             $('#btnProcess').addClass("disactive");
             $("#btnProcess").prop('disabled', false);
+
+            $("#divSmooth").show();
 
             Load_Model(session);
         } else {
