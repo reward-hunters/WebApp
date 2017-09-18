@@ -219,26 +219,33 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
  <label id="lbl_Choose" class="pull-left" style="display: none;"><p class="rotator"><b> Choose </b></p></label>  
   <div id="option_pane" class="pull-left-age" style="display: none;">
  
-    <label>
+    <label style="width:65px">
       <input type="radio" name="type" value="M" id ="radioM" />
       <span> Male </span> <br/>
       <img src="http://printahead.net/wp-content/uploads/2017/04/btnMaleGray.png" 
            data-normal="http://printahead.net/wp-content/uploads/2017/04/btnMaleGray.png" 
            data-hover="http://printahead.net/wp-content/uploads/2017/04/btnMaleNormal.png" id="btnMale" />
     </label>
-    <label>
+    <label style="width:65px">
       <input type="radio" name="type" value="F" id ="radioF" />
       <span> Female </span> <br/>
       <img src="http://printahead.net/wp-content/uploads/2017/04/btnFemaleGray.png" 
            data-normal="http://printahead.net/wp-content/uploads/2017/04/btnFemaleGray.png" 
            data-hover="http://printahead.net/wp-content/uploads/2017/04/btnFemaleNormal.png" id="btnFem" />
     </label>
-    <label>
-      <input type="radio" name="type" value="K" id ="radioK" />
-      <span> Kid </span> <br/>
-      <img src="http://printahead.net/wp-content/uploads/2017/04/btnChildGray.png" 
-           data-normal="http://printahead.net/wp-content/uploads/2017/04/btnChildGray.png" 
-           data-hover="http://printahead.net/wp-content/uploads/2017/04/btnChildNormal.png" id="btnChild" />
+    <label style="width:65px">
+      <input type="radio" name="type" value="B" id ="radioB" />
+      <span> Boy </span> <br/>
+      <img src="http://printahead.net/wp-content/uploads/2017/04/btnBoyGray.png" 
+           data-normal="http://printahead.net/wp-content/uploads/2017/04/btnBoyGray.png" 
+           data-hover="http://printahead.net/wp-content/uploads/2017/04/btnBoyNormal.png" id="btnBoy" />
+    </label>
+    <label style="width:65px">
+      <input type="radio" name="type" value="G" id ="radioG" />
+      <span> Girl </span> <br/>
+      <img src="http://printahead.net/wp-content/uploads/2017/04/btnGirlGray.png" 
+           data-normal="http://printahead.net/wp-content/uploads/2017/04/btnGirlGray.png" 
+           data-hover="http://printahead.net/wp-content/uploads/2017/04/btnGirlNormal.png" id="btnGirl" />
     </label>
   </div>
     <div id="test" class="pull-right-bottom">

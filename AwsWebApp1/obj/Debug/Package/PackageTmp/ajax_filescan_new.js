@@ -108,14 +108,16 @@
 
         document.getElementById("radioM").checked = false;
         document.getElementById("radioF").checked = false;
-        document.getElementById("radioK").checked = false;
+        document.getElementById("radioB").checked = false;
+        document.getElementById("radioG").checked = false;
 
         $("#option_pane").hide();
         $("#lbl_Choose").hide();
         $("#divSmooth").hide();
         document.getElementById("btnMale").src = "http://printahead.net/wp-content/uploads/2017/04/btnMaleGray.png";
         document.getElementById("btnFem").src = "http://printahead.net/wp-content/uploads/2017/04/btnFemaleGray.png";
-        document.getElementById("btnChild").src = "http://printahead.net/wp-content/uploads/2017/04/btnChildGray.png";
+        document.getElementById("btnBoy").src = "http://printahead.net/wp-content/uploads/2017/04/btnBoyGray.png";
+        document.getElementById("btnGirl").src = "http://printahead.net/wp-content/uploads/2017/04/btnGirlGray.png";
 
         document.getElementById("hairPath").value = "";
         document.getElementById("hairMaterialPath").value = "";
@@ -137,7 +139,7 @@
         document.getElementById("redirectURL").value = "";
         document.getElementById("size").value = 0;
 
-        document.getElementById("trackSmooth").value = 40;
+        document.getElementById("trackSmooth").value = 20;
 
         $("#btnRemoveAccessory").prop('disabled', true);
     }
@@ -185,7 +187,7 @@
             $('#btnProcess').addClass("disactive");
             $("#btnProcess").prop('disabled', false);
 
-            $("#divSmooth").show();
+       //     $("#divSmooth").show();
 
             Load_Model(session);
         } else {
@@ -236,10 +238,12 @@
         document.getElementById("currentType").value = 1;
 
     });
-    jQuery("#btnChild").click(function () {
+    jQuery("#btnBoy").click(function () {
         document.getElementById("currentType").value = 2;
     });
-
+    jQuery("#btnGirl").click(function () {
+        document.getElementById("currentType").value = 3;
+    });
 
    
 
