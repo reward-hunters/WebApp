@@ -349,7 +349,7 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
     <div class="radio">
       <label>
         <input type="radio" name="sizeoptionsRadios" id="optionsRadios1" value="98.5" checked>
-        3.2" tall ($98.50)
+        3.2" tall ($69.95)
       </label>
     </div>
   </div>
