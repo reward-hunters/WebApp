@@ -270,7 +270,7 @@
             $(".base .img-item").removeClass("active");
             $(".accessory-color .img-item").removeClass("active");
 
-            accessory_addon_price -= 4;
+            accessory_addon_price -= 6;
             if (accessory_addon_price === 0)
                 $(".price-accessory-addon").hide();
 
@@ -285,7 +285,7 @@
             $(".accessory-color .img-item").removeClass("active");
 
             --addonsCount;
-            accessory_addon_price -= 4;
+            accessory_addon_price -= 6;
             if (accessory_addon_price === 0)
                 $(".price-accessory-addon").hide();
 
@@ -618,7 +618,7 @@
             $(this).addClass("active");
             if ($(this).parent().hasClass("Premium")) {
                 $(".price-hair").show();
-                hair_price = 8;
+                hair_price = 6;
             }
             else {
                 $(".price-hair").hide();
@@ -647,7 +647,7 @@
             $(this).addClass("active");
             if ($(this).parent().hasClass("Premium")) {
                 $(".price-accessory").show();
-                accessory_price = 8;
+                accessory_price = 6;
             }
             else {
                 $(".price-accessory").hide();
@@ -674,7 +674,7 @@
                 return;
 
             if (document.getElementById("basePath").value === "")
-               accessory_addon_price += 4;
+               accessory_addon_price += 6;
 
             $(".base .img-item").removeClass("active");
             $(this).addClass("active");
@@ -718,7 +718,7 @@
             }
 
             if (document.getElementById("addonPath1").value === "")
-                accessory_addon_price += 4;
+                accessory_addon_price += 6;
 
             $(".accessory-add-on .img-item").removeClass("active");
             console.log("Attach addon");

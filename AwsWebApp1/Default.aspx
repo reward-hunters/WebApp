@@ -129,7 +129,6 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
                             <a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
                             <div class="nav-container"><ul id="menu-main-navigation" class="nav-menu"><li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-16"><a href="http://printahead.net/">Home page</a></li>
 <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://printahead.net/index.php/about-us/">About us</a></li>
-<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://printahead.net/index.php/blog/">Blog</a></li>
 <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://printahead.net/index.php/contact-us/">Contact us</a></li>
 <li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127"><a href="http://printahead.net/index.php/software/">Software</a></li>		
 <li id="menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-53 current_page_item menu-item-128"><a href="http://printahead.net/index.php/try-now/">Try now!</a></li>		
@@ -348,24 +347,24 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
   <div class="col-sm-4">
     <div class="radio">
       <label>
-        <input type="radio" name="sizeoptionsRadios" id="optionsRadios1" value="69.95" checked>
-        3.2" tall ($69.95)
+        <input type="radio" name="sizeoptionsRadios" id="optionsRadios1" value="59.95" checked>
+        3.2" tall ($59.95)
       </label>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="radio">
       <label>
-        <input type="radio" name="sizeoptionsRadios" id="optionsRadios2" value="142.6">
-        3.8" tall ($142.60)
+        <input type="radio" name="sizeoptionsRadios" id="optionsRadios2" value="89.95">
+        3.8" tall ($89.95)
       </label>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="radio">
       <label>
-        <input type="radio" name="sizeoptionsRadios" id="optionsRadios3" value="198.6">
-        4.5" tall ($198.60)
+        <input type="radio" name="sizeoptionsRadios" id="optionsRadios3" value="119.95">
+        4.5" tall ($119.95)
       </label>
     </div>
   </div>
@@ -428,7 +427,6 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
 		<div class="widget-area" id="footer-widgets">
 			<aside id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">SITE LINKS</h3><div class="menu-main-navigation-container"><ul id="menu-main-navigation-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-16"><a href="http://printahead.net/">Home page</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://printahead.net/index.php/about-us/">About us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://printahead.net/index.php/blog/">Blog</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://printahead.net/index.php/contact-us/">Contact us</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127"><a href="http://printahead.net/index.php/software/">Software</a></li>		
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-53 current_page_item menu-item-128"><a href="http://printahead.net/index.php/try-now/">Try now!</a></li>		

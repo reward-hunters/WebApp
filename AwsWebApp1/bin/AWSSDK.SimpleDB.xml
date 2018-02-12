@@ -874,6 +874,504 @@
             Gets and sets the property Attributes. The list of attributes returned by the operation.
             </summary>
         </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.AttributeUnmarshaller">
+            <summary>
+            Response Unmarshaller for Attribute Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.AttributeUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.AttributeUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.AttributeUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesRequestMarshaller">
+            <summary>
+            BatchDeleteAttributes Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.BatchDeleteAttributesRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for BatchDeleteAttributes operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesRequestMarshaller">
+            <summary>
+            BatchPutAttributes Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.BatchPutAttributesRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for BatchPutAttributes operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainRequestMarshaller">
+            <summary>
+            CreateDomain Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainRequestMarshaller.Marshall(Amazon.SimpleDB.Model.CreateDomainRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for CreateDomain operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesRequestMarshaller">
+            <summary>
+            DeleteAttributes Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.DeleteAttributesRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for DeleteAttributes operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainRequestMarshaller">
+            <summary>
+            DeleteDomain Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainRequestMarshaller.Marshall(Amazon.SimpleDB.Model.DeleteDomainRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for DeleteDomain operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataRequestMarshaller">
+            <summary>
+            DomainMetadata Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataRequestMarshaller.Marshall(Amazon.SimpleDB.Model.DomainMetadataRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for DomainMetadata operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesRequestMarshaller">
+            <summary>
+            GetAttributes Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.GetAttributesRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for GetAttributes operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ItemUnmarshaller">
+            <summary>
+            Response Unmarshaller for Item Object
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ItemUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ItemUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ItemUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsRequestMarshaller">
+            <summary>
+            ListDomains Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsRequestMarshaller.Marshall(Amazon.SimpleDB.Model.ListDomainsRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for ListDomains operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesRequestMarshaller">
+            <summary>
+            PutAttributes Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.PutAttributesRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for PutAttributes operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectRequestMarshaller">
+            <summary>
+            Select Request Marshaller
+            </summary>       
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectRequestMarshaller.Marshall(Amazon.SimpleDB.Model.SelectRequest)">
+            <summary>
+            Marshaller the request object to the HTTP request.
+            </summary>  
+            <param name="publicRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectResponseUnmarshaller">
+            <summary>
+            Response Unmarshaller for Select operation
+            </summary>  
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
+            <summary>
+            Unmarshaller the response from the service to the response class.
+            </summary>  
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
+            <summary>
+            Unmarshaller error response to exception.
+            </summary>  
+            <param name="context"></param>
+            <param name="innerException"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectResponseUnmarshaller.Instance">
+            <summary>
+            Gets the singleton.
+            </summary>  
+        </member>
         <member name="T:Amazon.SimpleDB.Model.InvalidNextTokenException">
             <summary>
              SimpleDB exception
@@ -2294,504 +2792,6 @@
             parameter is equal to <code>true</code>.
             </para>
             </summary>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.AttributeUnmarshaller">
-            <summary>
-            Response Unmarshaller for Attribute Object
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.AttributeUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.AttributeUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.AttributeUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesRequestMarshaller">
-            <summary>
-            BatchDeleteAttributes Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.BatchDeleteAttributesRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for BatchDeleteAttributes operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchDeleteAttributesResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesRequestMarshaller">
-            <summary>
-            BatchPutAttributes Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.BatchPutAttributesRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for BatchPutAttributes operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.BatchPutAttributesResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainRequestMarshaller">
-            <summary>
-            CreateDomain Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainRequestMarshaller.Marshall(Amazon.SimpleDB.Model.CreateDomainRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for CreateDomain operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.CreateDomainResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesRequestMarshaller">
-            <summary>
-            DeleteAttributes Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.DeleteAttributesRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for DeleteAttributes operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteAttributesResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainRequestMarshaller">
-            <summary>
-            DeleteDomain Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainRequestMarshaller.Marshall(Amazon.SimpleDB.Model.DeleteDomainRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for DeleteDomain operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DeleteDomainResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataRequestMarshaller">
-            <summary>
-            DomainMetadata Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataRequestMarshaller.Marshall(Amazon.SimpleDB.Model.DomainMetadataRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for DomainMetadata operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.DomainMetadataResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesRequestMarshaller">
-            <summary>
-            GetAttributes Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.GetAttributesRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for GetAttributes operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.GetAttributesResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ItemUnmarshaller">
-            <summary>
-            Response Unmarshaller for Item Object
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ItemUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ItemUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ItemUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsRequestMarshaller">
-            <summary>
-            ListDomains Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsRequestMarshaller.Marshall(Amazon.SimpleDB.Model.ListDomainsRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for ListDomains operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.ListDomainsResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesRequestMarshaller">
-            <summary>
-            PutAttributes Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesRequestMarshaller.Marshall(Amazon.SimpleDB.Model.PutAttributesRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for PutAttributes operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.PutAttributesResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectRequestMarshaller">
-            <summary>
-            Select Request Marshaller
-            </summary>       
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectRequestMarshaller.Marshall(Amazon.Runtime.AmazonWebServiceRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="input"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectRequestMarshaller.Marshall(Amazon.SimpleDB.Model.SelectRequest)">
-            <summary>
-            Marshaller the request object to the HTTP request.
-            </summary>  
-            <param name="publicRequest"></param>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectResponseUnmarshaller">
-            <summary>
-            Response Unmarshaller for Select operation
-            </summary>  
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectResponseUnmarshaller.Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)">
-            <summary>
-            Unmarshaller the response from the service to the response class.
-            </summary>  
-            <param name="context"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectResponseUnmarshaller.UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)">
-            <summary>
-            Unmarshaller error response to exception.
-            </summary>  
-            <param name="context"></param>
-            <param name="innerException"></param>
-            <param name="statusCode"></param>
-            <returns></returns>
-        </member>
-        <member name="P:Amazon.SimpleDB.Model.Internal.MarshallTransformations.SelectResponseUnmarshaller.Instance">
-            <summary>
-            Gets the singleton.
-            </summary>  
         </member>
         <member name="T:Amazon.SimpleDB.AmazonSimpleDBClient">
              <summary>
