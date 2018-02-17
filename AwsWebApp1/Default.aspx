@@ -211,7 +211,9 @@ body.custom-background { background-image: url("http://printahead.net/wp-content
     <label class="dragdrop"> 
       <!--  Drag & Drop your Photo <br/>
       ---------OR--------- <br/> -->		
-      <button id="select_photo" > Select File </button>
+      <button id="select_photo" > <font size="4">Load a picture.</font><br>
+Please remember to<br>select well lit, high resolution photos.<br>
+<b>Avoid</b> images with shadows, turning<br> heads, eyeglasses.. </button>
     </label>
     
   </div>
