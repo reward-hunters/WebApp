@@ -213,6 +213,15 @@ height: 70px;
   margin: 20px 8px;
 }
 
+#shipping {
+  text-align: center; 
+}
+
+#shipping > div {
+  display: inline-block;
+  margin: 20px 8px;
+}
+
 #option-age label {
   width: 20%; 
   display: inline-block; 

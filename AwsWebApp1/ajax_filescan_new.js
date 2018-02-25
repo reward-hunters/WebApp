@@ -6,7 +6,7 @@
     //
     //======================     
 
-    function placeNewImage(file) {
+    function placeNewImage(file) {6
         var reader = new FileReader();
 
         console.log(file);
@@ -105,6 +105,9 @@
 
         document.getElementById("sessionID").value = "";
         document.getElementById("currentType").value = -1;
+
+        document.getElementById("shippingRadios1").checked = true;
+        document.getElementById("shippingRadios2").checked = false;
 
         document.getElementById("radioM").checked = false;
         document.getElementById("radioF").checked = false;
@@ -428,6 +431,13 @@
                         calculate_price();
                     });
                     figure_price = Number($("input[name='sizeoptionsRadios']").val());
+
+                    $("input[name='shippingRadios']").change(function () {
+                        shipping_price = Number($(this).val());
+                        calculate_price();
+                    });
+                    shipping_price = Number($("input[name='shippingRadios']").val());
+
                     calculate_price();
 
                     $("#add_to_cart").click(function () {

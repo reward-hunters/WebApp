@@ -372,6 +372,25 @@ Please remember to<br>select well lit, high resolution photos.<br>
   </div>
 </div>
 
+<div class="row" id="shipping">
+  <div class="col-sm-4">
+    <div class="radio">
+      <label>
+        <input type="radio" name="shippingRadios" id="shippingRadios1" value="6" checked>
+        Shipping United States
+      </label>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="radio">
+      <label>
+        <input type="radio" name="shippingRadios" id="shippingRadios2" value="25">
+        Shipping outside United States
+      </label>
+    </div>
+  </div>
+</div>
+
 	<div id="loading">		
   <img src="http://printahead.net/wp-content/uploads/2017/04/loading7_gray.gif" />		
   <label id="complete"> </label>		
