@@ -434,7 +434,6 @@ Please remember to<br>select well lit, high resolution photos.<br>
         <span class="pull-right" id="total-value"></span>
       </div>
     </div>
-  <label class="shipping-nofify"> *Currently US only shipping</label>
   </div>
 
 <div class="clearfix"> </div>
